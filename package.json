@@ -24,7 +24,7 @@
   "peerDependencies": {
     "jquery":"^3.0.0",
     "bootstrap":"^3.3.0",
-    "@solgenomics/brapijs": "^2.0.3",
+    "@solgenomics/brapijs": "git+https://github.com/Breeding-Insight/BrAPI-js#v2.0.2",
     "d3": "^4.11.0"
   },
   "brapp": {
