@@ -24,7 +24,7 @@
   "peerDependencies": {
     "jquery":"^3.0.0",
     "bootstrap":"^3.3.0",
-    "@solgenomics/brapijs": "^0.3.6",
+    "@solgenomics/brapijs": "^2.0.3",
     "d3": "^4.11.0"
   },
   "brapp": {
