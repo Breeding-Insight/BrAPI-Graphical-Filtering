@@ -42,7 +42,12 @@ export default function GraphicalFilter(brapi_node,trait_accessor,table_col_acce
   
   if (group_key_accessor!=undefined){
     tableCols.push({title:"Count",data:"count"});
-    data_node = data_node.reduce().fork(function(all){
+
+    // BI-1936 - pass reduce a function to work with BrAPI-js 2.03
+    data_node = data_node.reduce(function (acc, val) {
+      acc.push(val);
+      return acc;
+    }, []).fork(function (all) {
       var key_map = {};
       all.forEach(function(d){
         var key = group_key_accessor(d.data);
