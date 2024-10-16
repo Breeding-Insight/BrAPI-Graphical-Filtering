@@ -23,7 +23,7 @@
   },
   "peerDependencies": {
     "jquery":"^3.0.0",
-    "bootstrap":"^3.3.0",
+    "bootstrap":"^5.3.3",
     "@solgenomics/brapijs": "git+https://github.com/Breeding-Insight/BrAPI-js#feature/BI-1936",
     "d3": "^4.11.0"
   },
