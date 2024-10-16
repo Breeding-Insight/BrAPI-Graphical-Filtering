@@ -325,7 +325,7 @@ export default function GraphicalFilter(brapi_node,trait_accessor,table_col_acce
       .classed("btn btn-secondary dropdown-toggle",true)
       .attr("type","button")
       .attr("id",dropID)
-      .attr("data-toggle","dropdown")
+      .attr("data-bs-toggle","dropdown")
       .attr("aria-haspopup","true")
       .attr("aria-expanded","false");
     var newFilterMenuContents = newFilterMenu.append("ul")
