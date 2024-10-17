@@ -95,7 +95,7 @@ export default function GraphicalFilter(brapi_node,trait_accessor,table_col_acce
   }
 
   data_node.all(function(data){
-    for (var key in allTraits) {
+    for (let key in allTraits) {
       if (allTraits.hasOwnProperty(key)) {
         tableCols.push({
           title: key,
